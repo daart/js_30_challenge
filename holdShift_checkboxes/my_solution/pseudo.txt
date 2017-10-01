@@ -1,0 +1,8 @@
+-> gather input items into array;
+-> hang an event listtener on document, for a shift btn keydown event
+-> check if any item is checked on the list:
+    => if checked, then we hang an event listener on each item within the array
+    => we define the closest item with the attribute "checked" to the one, 
+        that was clicked on
+    => we map the array using the range and set all the items attr "checked" there
+    

@@ -27,8 +27,8 @@ let displayMatches = (e) => {
 
 		return `
 			<li>
-				<span class="city">${cityName}</span>,
-				<span class="state">${stateName}</span>,
+				<span class="city">${cityName}</span>
+				<span class="state">${stateName}</span>
 				<span class="population">${place.population}</span>
 			</li>`
 	}).join('');
